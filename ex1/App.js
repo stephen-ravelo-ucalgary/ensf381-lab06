@@ -1,5 +1,4 @@
 import "./App.css";
-import EngineeringTopics from "./EngineeringTopics.js";
 
 function App() {
   const currentYear = new Date().getFullYear();
@@ -10,7 +9,6 @@ function App() {
       <p>React Components</p>
       <p>{currentYear}</p>
       {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
-      {EngineeringTopics()}
     </div>
   );
 }
