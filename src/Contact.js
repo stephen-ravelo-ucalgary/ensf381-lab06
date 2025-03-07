@@ -1,7 +1,8 @@
-function Contact() {
+function Contact(props) {
     return (
         <div>
-            <p>Contact Us</p>
+            <h2>{props.title}</h2>
+            <p>{props.description}</p>
         </div>
     );
 }

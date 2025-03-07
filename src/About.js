@@ -1,7 +1,8 @@
-function About() {
+function About(props) {
     return (
         <div>
-            <p>About Us</p>
+            <h2>{props.title}</h2>
+            <p>{props.description}</p>
         </div>
     );
 }
